@@ -59,4 +59,14 @@ Este proyecto implementa un **Exchange Descentralizado (DEX)** simple en la bloc
 
 ## Despliegue
 ### Requisitos
-- **Remix**:
+- **Remix**: Entorno de desarrollo para Solidity.
+- **MetaMask**: Extensión para interactuar con la blockchain.
+- **Prueba con la red Scroll Sepolia**.
+
+### Pasos
+1. Copiar los contratos `TokenA.sol`, `TokenB.sol` y `SimpleDEX.sol` en Remix.
+2. Desplegar primero `TokenA` y `TokenB`.
+3. Usar las direcciones de `TokenA` y `TokenB` al desplegar `SimpleDEX`.
+4. Interactuar con las funciones utilizando la interfaz de Remix o integraciones personalizadas.
+
+---
